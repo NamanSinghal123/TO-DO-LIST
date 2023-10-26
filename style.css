@@ -1,0 +1,87 @@
+body {
+    background: url(backgroundimg1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: auto;
+    color: #fff;
+    background-color: rgba(255, 255, 255 ,0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+h2{
+    text-align: center;
+    color: #333;
+}
+
+.input-container {  
+    display: flex;
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+button {
+    background-color: burlywood;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.delete-button {
+    background-color: burlywood;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.added-task{
+    color: #ff5733;
+}
+.complete-button {
+    background-color: #28A745; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.task-content{
+    flex:1;
+}
